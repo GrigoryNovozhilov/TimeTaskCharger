@@ -1,0 +1,4 @@
+rm --cached index.html - удаление файла из отслеживания гит
+add -A - добавление файлов 
+status - статус
+commit -m 'comment' - сделать коммит
