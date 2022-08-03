@@ -2,3 +2,5 @@ rm --cached index.html - удаление файла из отслеживани
 add -A - добавление файлов 
 status - статус
 commit -m 'comment' - сделать коммит
+branch test - создание ветки/показать активную ветку
+git branch -D test - удалить ветку
