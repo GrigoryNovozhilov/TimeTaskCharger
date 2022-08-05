@@ -19,6 +19,16 @@ body, p, h1, h2, h3, ul, ol {
     padding: 0;
 }
 
+body {
+    max-width: 1170px;
+}
+// .backboard {
+//     // width: 1170px;
+//     height: 800px;
+//     background-color:#4C2F0A;
+//     // margin: 0 auto;
+// }
+
 .header {
     background-color: var(--bg);
     height: 70px;
@@ -53,10 +63,20 @@ body, p, h1, h2, h3, ul, ol {
     padding-top: 15px;
 }
 
+
+
 .logo {
     height: 50px;
     width: 50px;
-    margin-left: 100px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.left-board {
+    width: 70px;
+    height: 800px;
+    background-color: #4C2F0A; 
+    display: flex;
 }
 
 .header__date-block {
