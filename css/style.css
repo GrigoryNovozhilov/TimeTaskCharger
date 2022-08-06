@@ -20,8 +20,14 @@ body, p, h1, h2, h3, ul, ol {
   padding: 0;
 }
 
-body {
+.board {
+  background-color: var(--bg);
+  height: 70px;
+  background-color: #4C2F0A;
   max-width: 1170px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
@@ -29,9 +35,22 @@ body {
   height: 70px;
   background-color: #4C2F0A;
   max-width: 1170px;
-  height: 70px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.week-desk {
+  width: 1026px;
+  height: 728px;
+  background-color: #281602;
+  display: flex;
+  margin: 0 auto;
+}
+
+.week-desk__day {
+  width: 118px;
+  height: 116px;
+  background-color: #EF810A;
 }
 
 .container {
@@ -59,7 +78,7 @@ body {
 .logo {
   height: 50px;
   width: 50px;
-  margin-left: 30px;
+  margin-left: 100px;
   position: relative;
 }
 
